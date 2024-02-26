@@ -1,0 +1,49 @@
+DDL - Data definition language 
+
+- Create: Criar
+- Drop: Deletar
+- Alter: Alterar
+
+o ddl cria fisicamente a estrutura do banco de dados
+
+base de dados - é o conjunto de tabelas ( EX: Escola --> Professor --> Alunos )
+
+toda vez que a aula for de sql abrir o sql server configuration manager 
+depois abrir o SQL server network configuration
+abrir o protocols
+e habilitar o TCP/IP
+depois ir para o primeiro la SQL server services e dar start no primeiro
+pode fechar o sql server beleza receba bora bill
+
+depois disso abrir o microsoft SQL Server Management Studio 18
+senha 123456
+usuario sa
+
+use - indica a utilização da database
+
+char ocupa tudo, se vc colocar char(30) ele vai ter 30 espaços
+varchar ocupa so oq vc usa, se vc colocar varchar(30) e usar 2 espaços ele só vai ter dois receba
+
+se for primary key nao precisar colocar que é not null ja que primary key ja e not null
+
+se a pessoa usar numeric ela tem duas opções, colocar um numero inteiro ou um numero real.
+Exemplos:
+
+numeric(3)
+| | | |, cria 3 casas
+
+numeric(2,1
+| | | || ria 2 casas inteiras e uma vira decimal.
+
+char(n)
+varchar(n)
+varchar(max)
+text
+nchar
+nvarchar
+nvarchar9max)
+ntext
+binary(n)
+varbinary
+varbinary(max)
+image
